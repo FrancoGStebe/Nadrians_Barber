@@ -1,0 +1,44 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px;
+
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFD700;}
+  
+  .input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; 
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,29 @@
+.contacto-container {
+    max-width: 400px;
+    margin: 50px auto; /* Ajusta el margen superior e inferior para centrar verticalmente */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo gris oscuro transparente */
+    color: #fff; /* Color de texto blanco */
+    text-align: center; /* Centra el texto */
+  }
+  
+  .titulo {
+    margin-bottom: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 20px; /* Añade margen superior */
+  }
+  
+  .icon-container a {
+    margin: 0 10px; /* Espaciado entre los iconos */
+  }
+  
+  .icon-container img {
+    width: 50px;
+  }
+  
